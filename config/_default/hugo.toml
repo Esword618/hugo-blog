@@ -32,6 +32,11 @@ theme = "FixIt"
     name = "标签"
     url = "/tags/"
     weight = 3
+  [[menu.main]]
+    identifier = "Geant4"
+    name = "Geant4"
+    url = "/Geant4/"
+    weight = 4
 
 # Hugo 解析文档的配置
 [markup]
