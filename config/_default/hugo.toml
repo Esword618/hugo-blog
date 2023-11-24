@@ -37,6 +37,27 @@ theme = "DoIt"
     name = "Geant4"
     url = "/Geant4/"
     weight = 4
+  [[menu.main]]
+    identifier = "showcase"
+    pre = ""
+    post = ""
+    name = "作品"
+    url = "/showcase/"
+    title = ""
+    weight = 5
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 6
+  [[menu.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-fw'></i>"
+    post = ""
+    name = " "
+    url = "https://github.com/Esword618"
+    title = "GitHub"
+    weight = 7
 
 # Hugo 解析文档的配置
 [markup]
