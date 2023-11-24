@@ -463,7 +463,7 @@
       [params.page.comment.utterances]
         enable = true
         # owner/repo
-        repo = "Esword618/hugo-blog-comments"
+        repo = "Esword618/Esword618.github.io"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
