@@ -234,7 +234,7 @@
     Gitea = ""
     XMPP = ""
     Matrix = ""
-    # Bilibili = "481314897"
+    Bilibili = "481314897"
     ORCID = ""
     Liberapay = ""
     Ko-Fi = ""
@@ -243,17 +243,8 @@
     QQ = ""
     QQGroup = ""
     Email = "isesword@163.com"
-    RSS = true # 
+    RSS = true
 
-    [params.social.Bilibili]
-      # 排列图标时的权重 (权重越大, 图标的位置越靠后)
-      weight = 3
-      # 你的社交 ID
-      id = "481314897"
-      # 你的社交链接的前缀
-      prefix = "https://space.bilibili.com/"
-      # 当鼠标停留在图标上时的提示内容
-      title = "Bilibili"
 
   #  文章页面配置
   [params.page]
@@ -461,7 +452,7 @@
         enable = false
       #  Utterances 评论系统设置
       [params.page.comment.utterances]
-        enable = true
+        enable = false
         # owner/repo
         repo = "Esword618/Esword618.github.io"
         issueTerm = "pathname"
@@ -495,12 +486,12 @@
         simple_view = false
       #  giscus 评论系统设置
       [params.page.comment.giscus]
-        enable = false
+        enable = true
         # owner/repo
-        dataRepo = ""
-        dataRepoId = ""
-        dataCategory = ""
-        dataCategoryId = ""
+        dataRepo = "Esword618/Esword618.github.io"
+        dataRepoId = "R_kgDOKeQohw"
+        dataCategory = "Announcements"
+        dataCategoryId = "DIC_kwDOKeQoh84CbN6u"
         dataMapping = "pathname"
         dataReactionsEnabled = "1"
         dataEmitMetadata = "0"
