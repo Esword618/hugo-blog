@@ -1,0 +1,5 @@
+link = "https://alice.example.com"
+email = "Esword@163.com"
+name = "Esword"
+[zh-cn]
+    name = "Esword"
